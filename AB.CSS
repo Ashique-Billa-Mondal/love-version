@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(pink, lightblue);
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  .container {
+    margin-top: 100px;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 3em;
+  }
+  
+  .buttons {
+    margin-top: 30px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    color: #f06;
+  }
+  
+  #hearts {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
